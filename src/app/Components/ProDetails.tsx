@@ -130,6 +130,13 @@ const ProDetails = () => {
             </div>
             {/* second completed */}
 
+            {/* third part has been started */}
+            <div className='h-[649px] w-[1920] bg-[#F9F8FE]'>
+
+            </div>
+
+
+            {/* third part has been started */}
 
 
 
