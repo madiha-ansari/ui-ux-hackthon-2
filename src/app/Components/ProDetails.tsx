@@ -25,13 +25,14 @@ const ProDetails = () => {
             {/* first side completed  */}
 
             {/* second side started */}
-            <div className='py-[120px] px-[280px]'>
-                <div className='w-[1170px] h-[509px] bg-white flex gap-4 py-[5px] px-[8px] shadow-lg'>
-                    <div className='flex flex-col gap-2'>
+            <div className="py-[120px] px-[20px] md:px-[80px] lg:px-[120px] xl:px-[280px]">
+                <div className="w-full max-w-[1170px] mx-auto h-auto bg-white flex flex-col lg:flex-row gap-4 py-[20px] px-[8px] shadow-lg">
+                    {/* Images Column */}
+                    <div className="flex flex-col gap-2 items-center lg:items-start">
                         <div>
                             <Image
                                 src="/Rectangle 134.svg"
-                                alt="Phone Icon"
+                                alt="Image 1"
                                 width={151}
                                 height={151}
                                 className="max-w-full h-auto"
@@ -40,7 +41,7 @@ const ProDetails = () => {
                         <div>
                             <Image
                                 src="/Rectangle 136.svg"
-                                alt="Phone Icon"
+                                alt="Image 2"
                                 width={151}
                                 height={151}
                                 className="max-w-full h-auto"
@@ -49,70 +50,75 @@ const ProDetails = () => {
                         <div>
                             <Image
                                 src="/Rectangle 137.svg"
-                                alt="Phone Icon"
+                                alt="Image 3"
                                 width={151}
                                 height={151}
                                 className="max-w-full h-auto"
                             />
                         </div>
                     </div>
-                    {/* 1 img */}
-                    <div>
+
+                    {/* Main Image */}
+                    <div className="flex justify-center lg:justify-start">
                         <Image
                             src="/Rectangle 138.svg"
-                            alt="Phone Icon"
+                            alt="Main Image"
                             width={375}
                             height={487}
                             className="max-w-full h-auto"
                         />
                     </div>
-                    {/* text */}
-                    <div className='w-[600px] h-[500px] py-[40px] px-[8px]'>
-                        <h1 className='font-JosefinSans text-[24px] text-[#0D134E] font-semibold md:text-[29px] text-3xl'>
+
+                    {/* Text Content */}
+                    <div className="w-full lg:w-[600px] h-auto py-[20px] px-[8px]">
+                        <h1 className="font-JosefinSans text-[24px] text-[#0D134E] font-semibold md:text-[29px] text-3xl">
                             Playwood arm chair
                         </h1>
-                        <div className='flex gap-2 items-center py-[10px]'>
+                        <div className="flex gap-2 items-center py-[10px]">
                             <div>
                                 <Image
                                     src="/Group 236.png"
-                                    alt="Phone Icon"
+                                    alt="Rating"
                                     width={69}
                                     height={12}
                                     className="max-w-full h-auto"
                                 />
                             </div>
                             <div>
-                                <p className='text-[#171875]'>(22)</p>
+                                <p className="text-[#171875]">(22)</p>
                             </div>
                         </div>
-                        <div className='flex gap-4 items-center py-[10px]'>
-                            <div className='text-[#171875]'>$32.00</div>
-                            <div className='text-[#FB2E86]'><del>$32.00</del></div>
+                        <div className="flex gap-4 items-center py-[10px]">
+                            <div className="text-[#171875]">$32.00</div>
+                            <div className="text-[#FB2E86]">
+                                <del>$32.00</del>
+                            </div>
                         </div>
-                        <p className='py-[10px] text-[#0D134E]'>Color</p>
-                        <p className='w-[594px] h-[45px] font-JosefinSans text-[16px] leading-[29px] text-[#A9ACC6]'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus porttitor purus, et volutpat sit.
+                        <p className="py-[10px] text-[#0D134E]">Color</p>
+                        <p className="text-[#A9ACC6] leading-[29px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus
+                            porttitor purus, et volutpat sit.
                         </p>
-                        <div className='py-[30px] px-[90px] flex items-center gap-4'>
-                            <div className='h-[29px] w-[89px] text-[#171875]'>Add to card</div>
+                        <div className="py-[20px] flex flex-col sm:flex-row sm:items-center gap-4">
+                            <div className="h-[29px] w-[89px] text-[#171875]">Add to card</div>
                             <div>
                                 <Image
                                     src="/Group 235.png"
-                                    alt="Phone Icon"
+                                    alt="Cart Icon"
                                     width={31}
                                     height={31}
                                     className="max-w-full h-auto"
                                 />
                             </div>
                         </div>
-                        <p className='h-[29px] w-[89px] text-[#171875]'>Categories</p>
-                        <p className='h-[29px] w-[89px] text-[#171875]'>Tags</p>
-                        <div className='flex items-center gap-4'>
-                            <div><p className='h-[29px] w-[89px] text-[#171875]'>Share</p></div>
+                        <p className="h-[29px] w-[89px] text-[#171875]">Categories</p>
+                        <p className="h-[29px] w-[89px] text-[#171875]">Tags</p>
+                        <div className="flex items-center gap-4">
+                            <p className="h-[29px] w-[89px] text-[#171875]">Share</p>
                             <div>
                                 <Image
                                     src="/Group 205.png"
-                                    alt="Phone Icon"
+                                    alt="Share Icons"
                                     width={56}
                                     height={12}
                                     className="max-w-full h-auto"
@@ -120,7 +126,6 @@ const ProDetails = () => {
                             </div>
                         </div>
                     </div>
-                    {/* text div */}
                 </div>
             </div>
             {/* second completed */}
