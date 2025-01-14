@@ -129,22 +129,39 @@ const ProDetails = () => {
                 </div>
             </div>
             {/* second completed */}
+{/* third part has been started */}
+<div className='bg-[#F9F8FE] py-[30px] px-[20px] sm:py-[60px] sm:px-[60px] md:py-[90px] md:px-[100px] lg:h-[760px] lg:px-[200px] xl:px-[400px]'>
+    <div className='flex flex-wrap items-center gap-4 sm:gap-8'>
+        <div><p className='font-JosefinSans text-[16px] sm:text-[18px] lg:text-[20px] underline text-[#151875]'>Description</p></div>
+        <div><p className='font-JosefinSans text-[16px] sm:text-[18px] lg:text-[20px] underline text-[#151875]' style={{ wordSpacing: "3px" }}>Additional Info</p></div>
+        <div><p className='font-JosefinSans text-[16px] sm:text-[18px] lg:text-[20px] underline text-[#151875]'>Reviews</p></div>
+        <div><p className='font-JosefinSans text-[16px] sm:text-[18px] lg:text-[20px] underline text-[#151875]'>Video</p></div>
+    </div>
+    <p className='font-JosefinSans text-[14px] sm:text-[16px] lg:text-[20px] underline text-[#151875] py-[20px] md:py-[40px]' style={{ wordSpacing: "1px" }}>Varius tempor.</p>
+    <p className='text-[14px] sm:text-[15px] lg:text-[16px] text-[#A9ACC6] max-w-full lg:w-[1153px]'>Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr Aliquam dis vulputate followed.</p>
+    <p className='font-JosefinSans text-[14px] sm:text-[16px] lg:text-[20px] underline text-[#151875] py-[20px] md:py-[40px]' style={{ wordSpacing: "8px" }}>More details</p>
 
-            {/* third part has been started */}
-            <div className='h-[649px] w-[1920] bg-[#F9F8FE]'>
-
+    <div>
+        {[...Array(4)].map((_, index) => (
+            <div key={index} className='flex items-center gap-4 py-[10px] sm:py-[20px]'>
+                <div>   
+                    <Image
+                        src="/akar-icons_arrow-up.png"
+                        alt="Cart Icon"
+                        width={24}
+                        height={24}
+                        className="max-w-full h-auto"
+                    />
+                </div>
+                <div className='text-[14px] sm:text-[15px] lg:text-[16px] text-[#A9ACC6] max-w-full lg:w-[1154px]'>Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc</div>
             </div>
+        ))}
+    </div>
+</div>
+{/* third part has been end */}
 
 
-            {/* third part has been started */}
-
-
-
-
-
-
-
-
+{/* four part started */}
 
 
 
